@@ -1,0 +1,109 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor del login y dashboard */
+.login-container, .dashboard-container {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Títulos */
+h1 {
+  margin-bottom: 20px;
+  color: #0072ff;
+}
+
+/* Formularios */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Botones */
+button {
+  padding: 10px;
+  background-color: #00c6ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0072ff;
+}
+
+/* Mensaje de error */
+.error {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+}
+/* Navbar */
+.navbar {
+  background-color: #0072ff;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left h2 {
+  margin: 0;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-right span {
+  font-size: 16px;
+}
+
+.navbar-right button {
+  background-color: white;
+  color: #0072ff;
+  border: 1px solid white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar-right button:hover {
+  background-color: #00c6ff;
+  color: white;
+  border: 1px solid #00c6ff;
+}

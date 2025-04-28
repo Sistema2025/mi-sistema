@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Mi Sistema</title>
+  <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Mi Sistema</h2>
+    <a href="#" id="pacientes"><i class="fas fa-user-injured"></i> Pacientes</a>
+    <a href="#" id="ventas"><i class="fas fa-cash-register"></i> Ventas</a>
+    <a href="#" id="historia"><i class="fas fa-notes-medical"></i> Historia Clínica</a>
+    <a href="#" id="inventario"><i class="fas fa-pills"></i> Inventario</a>
+    <a href="#" id="consultas"><i class="fas fa-stethoscope"></i> Consultas Médicas</a>
+    <div class="logout" id="cerrarSesion">
+      <i class="fas fa-sign-out-alt"></i> Cerrar Sesión
+    </div>
+  </div>
+
+  <div class="main-content" id="contenido">
+    <h1>Bienvenido al Sistema</h1>
+    <p>Seleccione una opción del menú para comenzar.</p>
+  </div>
+
+  <script src="/js/dashboard.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+</html>
